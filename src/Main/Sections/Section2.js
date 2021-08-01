@@ -9,7 +9,8 @@ function Section2(props) {
 
     return (
         <section id="section2" className="section2">
-            <div className="containerProject">
+            <div className="sectionTitle">PROJECTS</div>
+            <div className="containerProject firstContainer ">
                 <div className="projectDescription container">
                     <h2><BiFace color="#f6bd60"/> ROLE:</h2> Alternante développeur web
                     <h2><BsBuilding color="#f6bd60"/>  ENTREPRISE:</h2> Ouidou Consulting, Paris

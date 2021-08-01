@@ -9,6 +9,7 @@ function Section3(props) {
 
     return (
         <section id="section3" className="section3">
+            <p className="sectionTitle">INFORMATIONS</p>
             <div className="containerFooter">
                 <div className="footerInformations">
                 <p><RiDiscussLine/> Ranyamttn@gmail.com</p>

@@ -10,14 +10,12 @@ function Fullpage(props) {
     return (
         <>
             <Navbar/>
-            <div className="sectionTitle">QUI SUIS JE?</div>
             <Section1/>  
-            <div className="sectionTitle">PROJECTS</div>
             <Section2/> 
-            <section className="mockup">
+            <section id="section4" className="mockup">
+                <div className="sectionTitle">PROTOTYPE</div>
                 <img alt="" src={mockup} width="100%"/>
             </section>
-            <p className="sectionTitle">INFORMATIONS </p>
             <Section3/>
         </>
     )

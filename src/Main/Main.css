@@ -8,23 +8,23 @@
     font-family: var(--font-title);
     background-color: #fff1e6;
 }
-.section1{
+.quisuisje{
     display: flex;
     flex-direction: row;
     /* justify-content: space-around; */
     /* justify-content: space-between; */
     flex-wrap: wrap;
-    margin: 5%;
+    margin: 0% 5%;
     font-family: var(--font-title);
 }
 .profilePhoto{
     width:200px; 
     border-radius: 50%;
-    flex-grow: 2;
+    flex-grow: 1;
 }
 .description{
     flex-grow: 1;
-    margin: 10%;
+    margin: 5%;
     text-align: center;
 }
 h1{
@@ -67,6 +67,9 @@ h1{
 
     /* -webkit-box-shadow: 0px 0px 7px -1px #F6BD60; 
     box-shadow: 0px 0px 7px -1px #F6BD60; */
+}
+.firstContainer{
+    margin-top:0%
 }
 .SocialMedia{
 }
