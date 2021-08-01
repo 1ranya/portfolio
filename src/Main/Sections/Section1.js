@@ -1,5 +1,4 @@
 import profilePhoto from "../../assets/profilePhoto.jpg"
-import ouidouLogo from "../../assets/ouidouLogo.png"
 import { GrLocation } from "react-icons/gr";
 import { GiDiploma } from "react-icons/gi";
 
