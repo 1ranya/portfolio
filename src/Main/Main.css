@@ -45,15 +45,28 @@ h1{
     height: 50%;
 }
 .projectDescription{
-    flex-grow: 1;
+    flex-grow: 4;
+}
+.missions{
+    flex-grow: 4;
+    border-left: #fabc59 solid;
+    padding-left: 3%;
+    margin-left: 2%;
 }
 .containerProject{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 0.5px solid ;
+
+    background-color: black;
+    color: #ece2d2;
+    border: #fabc59 0.5px solid ;
+    border-radius: 0.5%;
     padding: 2% 5%; 
-    margin: 5%
+    margin: 5%;
+
+    /* -webkit-box-shadow: 0px 0px 7px -1px #F6BD60; 
+    box-shadow: 0px 0px 7px -1px #F6BD60; */
 }
 .containerFooter{
     background-color: black;
