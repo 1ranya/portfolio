@@ -20,10 +20,10 @@
 .profilePhoto{
     width:200px; 
     border-radius: 50%;
-    flex-grow: 11;
+    flex-grow: 2;
 }
 .description{
-    /* flex-grow: 1; */
+    flex-grow: 1;
     margin: 10%;
     text-align: center;
 }
@@ -68,9 +68,6 @@ h1{
     /* -webkit-box-shadow: 0px 0px 7px -1px #F6BD60; 
     box-shadow: 0px 0px 7px -1px #F6BD60; */
 }
-.containerFooter{
-    background-color: black;
-}
 .SocialMedia{
 }
 a{
@@ -79,16 +76,26 @@ a{
 .containerFooter{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 2% 5%; 
+    background-color: black;
     /* margin: 5% */
+}
+.socialMediaLinks{
+    font-size: large;
 }
 .AllRightReserved{
     text-align: center;
-    padding-bottom: 1%;
+    padding: 0.5%;
+    margin-bottom: 0%;
+    background-color: #fabc59;
+    color: black;
 }
 .section3{
     background-color: black;
     color: aliceblue;
     /* margin: 5% 0%; */
+}
+.mockup{
+    margin: 5%;
 }
