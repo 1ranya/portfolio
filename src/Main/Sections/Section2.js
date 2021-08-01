@@ -1,12 +1,9 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBuilding, faClock, faFileCode, faPeopleArrows, faStickyNote } from '@fortawesome/free-solid-svg-icons'
 import { BiFace } from "react-icons/bi";
 import { BsClockHistory, BsBuilding } from "react-icons/bs";
 import { AiOutlineCodepen } from "react-icons/ai";
 import { BiCodeAlt } from "react-icons/bi";
-function Section2(props) {
-    
 
+function Section2(props) {
     return (
         <section id="section2" className="section2">
             <div className="sectionTitle">PROJECTS</div>

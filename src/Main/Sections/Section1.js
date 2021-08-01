@@ -1,10 +1,7 @@
 import profilePhoto from "../../assets/profilePhoto.jpg"
 import { GrLocation } from "react-icons/gr";
-import { GiDiploma } from "react-icons/gi";
 
 function Section1(props) {
-    
-
     return (
         <section id="section1" className="section1">
             <div className="sectionTitle">QUI SUIS JE?</div>

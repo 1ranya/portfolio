@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAddressBook } from '@fortawesome/free-solid-svg-icons'
 import { FaLinkedin, FaGithub  } from 'react-icons/fa';
 import { RiDiscussLine, RiPhoneLine } from "react-icons/ri";
 import { AiOutlineCopyrightCircle } from "react-icons/ai";

@@ -1,6 +1,4 @@
 function Footer(props) {
-    
-
     return (
         <section id="section3">
             <div className=""></div>
