@@ -1,0 +1,27 @@
+:root{
+    --font-title: 'Noto Sans JP', sans-serif;;
+    --navbar-size: 1.5em  
+}
+.Navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    margin: 2em;
+    /* font-family: var(--font-title); */
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--navbar-size);
+    background-color: black;
+    margin: 0%;
+    padding: 2%;
+    color: #f6bd60;
+}
+
+a{
+    text-decoration: none;
+    color: #f6bd60;
+    font-weight: bold;
+
+}
+.changed{
+    color : white
+}
