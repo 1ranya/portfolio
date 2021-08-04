@@ -12,9 +12,11 @@ function Fullpage(props) {
             <Navbar/>
             <Section1/>  
             <Section2/> 
-            <section id="section4" className="mockup">
-                <div className="sectionTitle">PROTOTYPE</div>
-                <img alt="" src={mockup} width="100%"/>
+            <section id="section4" className="section4" >
+                <div className="mockup">
+                    <div className="sectionTitle">PROTOTYPE</div>
+                    <img alt="" src={mockup} width="100%"/>
+                </div>
             </section>
             <Section3/>
         </>

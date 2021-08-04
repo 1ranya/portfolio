@@ -9,7 +9,8 @@ function Section1(props) {
                 <img className="profilePhoto" alt="Profile" src={profilePhoto}/>
                 <div className="description">
                     <p className="quote">"You create your own opportunities"</p>
-                    <h1>Altérnante en développement web </h1><h1>chez Ouidou Consulting <GrLocation color="red"/> Paris</h1>
+                    <h1 style={{fontWeight:100}}>Altérnante en développement web </h1>
+                    <h1 style={{fontWeight:100}}>chez Ouidou Consulting <GrLocation color="red"/> Paris</h1>
                     <p>Expert Informatique et Système d'Information </p>
                 </div>
             </div>

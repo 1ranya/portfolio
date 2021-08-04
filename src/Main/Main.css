@@ -30,11 +30,14 @@
 h1{
     text-align:center;
 }
+h2 {
+    font-size: larger;
+}
 .sectionTitle{
     font-size: 350%;
     text-align: center;
     font-weight: bold;
-    padding-top: 10%;
+    padding-top: 7%;
     font-family: 'Roboto', sans-serif;}
 .quote{
     font-family: 'Great Vibes', cursive;
@@ -45,10 +48,10 @@ h1{
     height: 50%;
 }
 .projectDescription{
-    flex-grow: 4;
+    /* flex-grow: 2; */
 }
 .missions{
-    flex-grow: 4;
+    flex-grow: 2;
     border-left: #fabc59 solid;
     padding-left: 3%;
     margin-left: 2%;
@@ -73,9 +76,6 @@ h1{
 }
 .SocialMedia{
 }
-a{
-
-}
 .containerFooter{
     display: flex;
     flex-direction: row;
@@ -97,8 +97,26 @@ a{
 .section3{
     background-color: black;
     color: aliceblue;
-    /* margin: 5% 0%; */
+    margin-top: 0%;
+    
 }
 .mockup{
-    margin: 5%;
+    margin: 0% 5%;
+}
+.informations{
+    margin-top: 0%;
+}
+.section1, .section4{
+    background-color: #ffe2cc;
+    background-image: url('../assets/element.svg');
+    background-repeat:round
+}
+
+.section1, .section2, .section4{
+    padding-bottom: 7%;
+}
+@media screen and (max-width:640px) {
+    .informations{
+        font-size: 3rem;
+    }
 }
