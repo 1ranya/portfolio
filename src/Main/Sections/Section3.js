@@ -18,7 +18,7 @@ function Section3(props) {
                     <a href="https://github.com/1ranya"><p className="socialMediaLinks">Github <FaGithub /></p></a>
                 </div>
             </div>
-            <p className="AllRightReserved"><AiOutlineCopyrightCircle/>All Rights Reserved</p>
+            <p className="AllRightReserved">All Rights Reserved <AiOutlineCopyrightCircle/>Rania Tounsi 2021</p>
         </section>
     )
 }

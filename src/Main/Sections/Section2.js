@@ -71,7 +71,6 @@ function Section2(props) {
                     <p>&nbsp; &nbsp; Environnement: <b>OracleApex</b> Langages: <b>JavaScript, HTML, CSS, jQuery et SQL</b></p></p>
                 </div>
             </div>
-            
         </section>
     )
 }

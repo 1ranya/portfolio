@@ -11,7 +11,7 @@ function Section1(props) {
                     <p className="quote">"You create your own opportunities"</p>
                     <h1 style={{fontWeight:100}}>Altérnante en développement web </h1>
                     <h1 style={{fontWeight:100}}>chez Ouidou Consulting <GrLocation color="red"/> Paris</h1>
-                    <p>Expert Informatique et Système d'Information </p>
+                    <p>Expert en Informatique et Système d'Information </p>
                 </div>
             </div>
         </section>

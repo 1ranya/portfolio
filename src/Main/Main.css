@@ -115,6 +115,10 @@ h2 {
 .section1, .section2, .section4{
     padding-bottom: 7%;
 }
+.descriptionPrototype{
+    text-align: center;
+    font-size: larger;
+}
 @media screen and (max-width:640px) {
     .informations{
         font-size: 3rem;
