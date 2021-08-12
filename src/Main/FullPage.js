@@ -20,8 +20,12 @@ function Fullpage(props) {
                 <div className="mockup">
                     <div className="sectionTitle">PROTOTYPE</div>
                     <img alt="" src={mockup} width="100%"/>
-                    <p className="descriptionPrototype"> Portfolio totalement développé par TOUNSI Rania en utilisant Frontend: React <FaReact/>, Css <IoLogoCss3/>, React-icons et pour l'Outil de prototypage: Figma <CgFigma/> et Photoshop <SiAdobephotoshop/> </p>
                 </div>
+            </section>
+            <section className="section5">
+                <p className="descriptionPrototype descriptionPrototypeP1"> Portfolio totalement développé par TOUNSI Rania </p>
+                <p className="descriptionPrototype"> <b>Frontend: </b>React <FaReact/>, Css <IoLogoCss3/> et React-icons</p>
+                <p className="descriptionPrototype">  <b>Prototype:</b> Figma <CgFigma/> et Photoshop <SiAdobephotoshop/>   </p>
             </section>
             <Section3/>
         </>

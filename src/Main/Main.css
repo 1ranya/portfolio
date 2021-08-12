@@ -1,7 +1,7 @@
 
 :root{
     --font-title: 'Noto Sans JP', sans-serif;;
-    /* --font-title : 'Roboto', sans-serif; */
+    --font-title-roboto : 'Roboto', sans-serif;
     --title-size: 1.5em  
 }
 .App{
@@ -115,9 +115,16 @@ h2 {
 .section1, .section2, .section4{
     padding-bottom: 7%;
 }
+.section5{
+    margin: 5rem 0;
+}
+.descriptionPrototypeP1{
+    text-decoration: underline;
+}
 .descriptionPrototype{
     text-align: center;
-    font-size: larger;
+    font-family: var(--font-title-roboto);
+    font-size: large;
 }
 @media screen and (max-width:640px) {
     .informations{
