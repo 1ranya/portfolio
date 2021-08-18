@@ -3,7 +3,8 @@ import Section1 from '../Main/Sections/Section1'
 import './Main.css'
 import Section2 from './Sections/Section2';
 import Section3 from './Sections/Section3';
-import mockup from "../assets/mockup.png"
+import mockup from "../assets/mockup.png";
+import typoAndColors from "../assets/typo.svg";
 import { FaReact } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
 import { CgFigma } from "react-icons/cg";
@@ -20,6 +21,9 @@ function Fullpage(props) {
                 <div className="mockup">
                     <div className="sectionTitle">PROTOTYPE</div>
                     <img alt="" src={mockup} width="100%"/>
+                    <div id="mockup__typo">
+                        <img alt="" src={typoAndColors} width="100%"/>
+                    </div>
                 </div>
             </section>
             <section className="section5">

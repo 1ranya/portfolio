@@ -11,8 +11,6 @@
 .quisuisje{
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
-    /* justify-content: space-between; */
     flex-wrap: wrap;
     margin: 0% 5%;
     font-family: var(--font-title);
@@ -21,6 +19,65 @@
     width:200px; 
     border-radius: 50%;
     flex-grow: 1;
+    /* animation: go-circle 1s ease-in forwards infinite alternate; */
+}
+.photoContainer{
+}
+.circle{
+    position:absolute;
+    border-radius: 50%;
+    -webkit-box-shadow: 3px 8px 10px 0px rgba(0,0,0,0.57); 
+    box-shadow: 3px 8px 10px 0px rgba(0,0,0,0.57);
+    background: rgb(250,188,89);
+    background: linear-gradient(90deg, rgba(250,188,89,0.9728933809852066) 11%, rgba(0,0,0,1) 88%);
+    animation: go-circle 0.5s ease-in forwards infinite alternate;
+}
+.big__circle{
+    width: 50px;
+    height:50px;
+    top: 300px;
+    left: 400px;
+}
+.small__circle{
+    width: 25px;
+    height:25px;
+    top: 400px;
+    left: 50px;
+}
+.quisuisje:hover .profilePhoto{
+}
+@keyframes go-circle{
+
+    10%{
+        transform: translateX(1%) translateY(1%);
+    }
+    20%{
+        transform: translateX(2%) translateY(2%);
+    }
+    30%{
+        transform: translateX(3%) translateY(3%);
+    }
+    40%{
+        transform: translateX(4%) translateY(4%);
+    }
+    50%{
+        transform: translateX(5%) translateY(5%);
+    }
+    60%{
+        transform: translateX(6%) translateY(5%);
+    }
+    70%{
+        transform: translateX(7%) translateY(4%);
+    }
+    80%{
+        transform: translateX(8%) translateY(3%);
+    }
+    90%{
+        transform: translateX(9%) translateY(2%);
+    }
+    100%{
+        transform: translateX(10%) translateY(1%);
+    }
 }
 .description{
     flex-grow: 1;
@@ -117,6 +174,19 @@ h2 {
 }
 .section5{
     margin: 5rem 0;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.stack{
+    flex-grow: 3;
+}
+
+#imageStack{
+    width: 50px;
+    height: auto;
+    flex-grow: 5;
 }
 .descriptionPrototypeP1{
     text-decoration: underline;
@@ -125,6 +195,10 @@ h2 {
     text-align: center;
     font-family: var(--font-title-roboto);
     font-size: large;
+}
+#mockup__typo{
+    text-align: center;
+    margin-top: 10%;
 }
 @media screen and (max-width:640px) {
     .informations{
