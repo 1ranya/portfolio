@@ -14,8 +14,8 @@ function Section3(props) {
                 <p><RiPhoneLine/> +33 7 62 09 00 86 </p>
                 </div>
                 <div className="SocialMedia">
-                    <a href="https://www.linkedin.com/in/rania-tounsi-b0186a138/"> <p className="socialMediaLinks">Linked <FaLinkedin /></p></a>
-                    <a href="https://github.com/1ranya"><p className="socialMediaLinks">Github <FaGithub /></p></a>
+                    <p className="socialMediaLinks"><a id="linkedinLink" href="https://www.linkedin.com/in/rania-tounsi-b0186a138/">Linked </a><FaLinkedin /></p>
+                    <p className="socialMediaLinks"><a id="githubLink" href="https://github.com/1ranya">Github </a><FaGithub /></p>
                 </div>
             </div>
             <p className="AllRightReserved">All Rights Reserved <AiOutlineCopyrightCircle/>Rania Tounsi 2021</p>
