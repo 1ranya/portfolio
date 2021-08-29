@@ -184,26 +184,18 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.stack{
-    flex-grow: 3;
-}
 
 #imageStack{
     width: 50px;
     height: auto;
     flex-grow: 5;
 }
-.descriptionPrototypeP1{
-    text-decoration: underline;
-}
 .descriptionPrototype{
     text-align: center;
     font-family: var(--font-title-roboto);
-    font-size: large;
+    font-size: small;
 }
 #mockup__typo{
-    text-align: center;
-    margin-top: 10%;
 }
 
 /* iPhone 5/SE */

@@ -20,16 +20,19 @@ function Fullpage(props) {
             <section id="section4" className="section4" >
                 <div className="mockup">
                     <div className="sectionTitle">PROTOTYPE</div>
-                    <img alt="" src={mockup} width="100%"/>
                     <div id="mockup__typo">
+                        <img alt="" src={mockup} width="100%"/>
+                        <div className="sectionTitle">IDENTITE VISUELLE</div>
                         <img alt="" src={typoAndColors} width="100%"/>
                     </div>
                 </div>
             </section>
             <section className="section5">
-                <p className="descriptionPrototype descriptionPrototypeP1"> Portfolio totalement développé par TOUNSI Rania </p>
-                <p className="descriptionPrototype"> <b>Frontend: </b>React <FaReact/>, Css <IoLogoCss3/> et React-icons</p>
-                <p className="descriptionPrototype">  <b>Prototype:</b> Figma <CgFigma/> et Photoshop <SiAdobephotoshop/>   </p>
+                <div id="stack">
+                    <p className="descriptionPrototype descriptionPrototypeP1"> Portfolio intégralement développé from scratch par TOUNSI Rania </p>
+                    <p className="descriptionPrototype"> <b>Frontend: </b>React, Css 3 et React-icons</p>
+                    <p className="descriptionPrototype">  <b>Prototype:</b> Figma et Photoshop </p>
+                </div>
             </section>
             <Section3/>
         </>
