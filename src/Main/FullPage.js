@@ -5,10 +5,6 @@ import Section2 from './Sections/Section2';
 import Section3 from './Sections/Section3';
 import mockup from "../assets/mockup.png";
 import typoAndColors from "../assets/typo.svg";
-import { FaReact } from "react-icons/fa";
-import { IoLogoCss3 } from "react-icons/io";
-import { CgFigma } from "react-icons/cg";
-import { SiAdobephotoshop } from "react-icons/si";
 function Fullpage(props) {
     
 
@@ -29,7 +25,7 @@ function Fullpage(props) {
             </section>
             <section className="section5">
                 <div id="stack">
-                    <p className="descriptionPrototype descriptionPrototypeP1"> Portfolio intégralement développé from scratch par TOUNSI Rania </p>
+                    <p className="descriptionPrototype descriptionPrototypeP1"> Ce portfolio est intégralement développé from scratch par TOUNSI Rania </p>
                     <p className="descriptionPrototype"> <b>Frontend: </b>React, Css 3 et React-icons</p>
                     <p className="descriptionPrototype">  <b>Prototype:</b> Figma et Photoshop </p>
                 </div>

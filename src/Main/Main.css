@@ -193,7 +193,7 @@ h2 {
 .descriptionPrototype{
     text-align: center;
     font-family: var(--font-title-roboto);
-    font-size: small;
+    font-size: medium;
 }
 #mockup__typo{
 }
